@@ -26,8 +26,8 @@ import { auth } from '@/firebase'
 import { useRouter } from 'vue-router' // import router
 import { signInWithEmailAndPassword } from 'firebase/auth'
 
-const email = ref('test@test.com')
-const password = ref('12345678')
+const email = ref('')
+const password = ref('')
 const errMsg = ref('')
 
 const router = useRouter() // get a reference to our vue router
