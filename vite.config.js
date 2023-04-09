@@ -5,11 +5,11 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/static/',
-  publicDir: 'assets/static/',
+  base: '/',
+  publicDir: 'public',
   build: {
     manifest: true,
-    outDir: 'public/static/'
+    outDir: 'dist/'
   },
   plugins: [vue()],
   resolve: {
