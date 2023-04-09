@@ -48,7 +48,7 @@ const signIn = () => {
           errMsg.value = 'No account with that email was found'
           break
         case 'auth/wrong-password':
-          errMsg.value = 'Incorrect password'
+          errMsg.value = 'Incorrect password!'
           break
         default:
           errMsg.value = 'Email or password was incorrect'
